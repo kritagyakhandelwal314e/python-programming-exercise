@@ -1,10 +1,10 @@
-#Python Programming Exercises
-####Following are few programming exercises:
-- ###Implement Queue using python List
-- ###write following additional methods for Queue: method to reverse a Queue using recursion, method which returns minimum(smallest) element in the queue(considering all elements in the queue are of same datatype)
-- ###Given a list of N positive integers and a number S, find out and return a continuous sub-list sum of whose elements is S, return empty list if no such sub array exists
-- ###Given a matrix (list of lists) of size N*M and a number X, find if X is present in matrix
-- ###Given a positive integer N, print pretty square of N.
+# Python Programming Exercises
+#### Following are few programming exercises:
+- ### Implement Queue using python List
+- ### write following additional methods for Queue: method to reverse a Queue using recursion, method which returns minimum(smallest) element in the queue(considering all elements in the queue are of same datatype)
+- ### Given a list of N positive integers and a number S, find out and return a continuous sub-list sum of whose elements is S, return empty list if no such sub array exists
+- ### Given a matrix (list of lists) of size N*M and a number X, find if X is present in matrix
+- ### Given a positive integer N, print pretty square of N.
     - Pretty square of 1 is : <br>
 1<br>
     - pretty square of 2 is: <br>
