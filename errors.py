@@ -1,0 +1,2 @@
+class ConstructorArgumentQueueLimitExceeded(Exception):
+  pass

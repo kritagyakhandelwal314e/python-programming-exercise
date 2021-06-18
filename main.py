@@ -1,16 +1,27 @@
-# This is a sample Python script.
+import Queue as Q
+import random
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+q = Q.Queue([], capacity=9, is_limit=True)
+
+q.echo()
+q.echo_deque()
+print('minimum: ', q.minimum())
+q.dequeue()
+q.echo()
+q.echo_deque()
+print('minimum: ', q.minimum())
+for i in range(101):
+  if i % 10 == 0:
+    q.reverse()
+  value = random.randint(1, 101)
+  q.enqueue(value)
+  q.echo()
+  q.echo_deque()
+  print('minimum: ', q.minimum())
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# dq = Q.Dequeue()
+# print(dq.get())
+# dq.push_back(10)
+# print(dq.size)
+# print(dq.get())
