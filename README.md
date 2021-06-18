@@ -6,14 +6,15 @@
 4. ### Given a matrix (list of lists) of size N*M and a number X, find if X is present in matrix
 5. ### Given a positive integer N, print pretty square of N.
     - Pretty square of 1 is : <br>
+    
       > 1<br>
-
     - pretty square of 2 is: <br>
-
+    
       > 2 2 2<br>
       2 1 2<br>
       2 2 2<br>
     - pretty square of 3 is: <br>
+    
       > 3 3 3 3 3<br>
       3 2 2 2 3<br>
       3 2 1 2 3<br>
